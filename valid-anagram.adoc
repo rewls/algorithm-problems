@@ -1,0 +1,29 @@
+= Valid Anagram
+:stem: latexmath
+:toc: left
+
+[quote]
+____
+https://leetcode.com/problems/valid-anagram
+____
+
+난이도:: 쉽다
+상태:: 풀었다
+
+== 접근
+
+=== Count
+
+시간 복잡도:: stem:[O(N)]
+공간 복잡도:: stem:[O(1)]
+
+== Follow up
+
+* Unicode characters
+
+=== 접근
+
+==== Hash table
+
+시간 복잡도:: 평균 stem:[O(N)], 최악 stem:[O(N^2)]
+공간 복잡도:: stem:[O(N)], stem:[N]은 unicode character 개수
