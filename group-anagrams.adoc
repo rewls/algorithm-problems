@@ -1,0 +1,43 @@
+= Group Anagrams
+:stem: latexmath
+:toc: left
+
+[quote]
+____
+https://leetcode.com/problems/group-anagrams
+____
+
+난이도:: 쉽다
+상태:: 풀었다
+
+== 접근
+
+=== Balanced tree
+
+stem:[M]은 문자열 최대 길이, stem:[N]은 문자열 개수
+
+시간 복잡도::
+stem:[O(N(M + \log N))]
+공간 복잡도:: stem:[O(MN)]
+
+=== Hash table
+
+stem:[M]은 문자열 최대 길이, stem:[N]은 문자열 개수
+
+시간 복잡도:: 평균 stem:[O(MN))]
+공간 복잡도:: stem:[O(MN)]
+
+=== Sorting
+
+stem:[M]은 문자열 최대 길이, stem:[N]은 문자열 개수
+
+시간 복잡도:: stem:[O(NM\log M)]
+공간 복잡도:: stem:[O(MN)]
+
+== 구현
+
+[qanda]
+`vector<int>`를 `unordered_map` key로 쓰려면 hash 직접 만들어야한다::
+* 직접 hash 구현
+* `string`
+* `array`
