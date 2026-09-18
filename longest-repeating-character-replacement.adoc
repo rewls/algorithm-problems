@@ -1,0 +1,18 @@
+= Longest Repeating Character Replacement
+:stem: latexmath
+:toc: left
+
+[quote]
+____
+https://leetcode.com/problems/longest-repeating-character-replacement
+____
+
+난이도:: sliding window 적용 생각해볼 만하다
+상태:: 힌트 보고 풀었다
+
+== 접근
+
+=== Sliding window
+
+시간 복잡도:: stem:[O(N)]
+공간 복잡도:: stem:[O(1)]
