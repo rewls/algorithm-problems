@@ -1,0 +1,18 @@
+= Merge Strings Alternately
+:stem: latexmath
+:toc: left
+
+[quote]
+____
+https://leetcode.com/problems/merge-strings-alternately
+____
+
+난이도:: 쉽다
+상태:: 풀었다
+
+== 접근
+
+=== 그냥 푼다
+
+시간 복잡도:: stem:[O(N)], stem:[N]은 최대 길이
+공간 복잡도:: stem:[O(1)]
