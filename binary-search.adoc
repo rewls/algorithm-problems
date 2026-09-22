@@ -1,0 +1,22 @@
+= Binary Search
+:stem: latexmath
+:toc: left
+
+[quote]
+____
+https://leetcode.com/problems/binary-search
+____
+
+난이도:: 쉽다
+상태:: 풀었다
+
+== 접근
+
+=== 이진 탐색
+
+시간 복잡도:: stem:[O(\log N)]
+공간 복잡도:: stem:[O(1)]
+
+== 구현
+
+* `lower_bound`, `upper_bound`
