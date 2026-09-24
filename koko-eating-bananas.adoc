@@ -1,0 +1,23 @@
+= Koko Eating Bananas
+:stem: latexmath
+:toc: left
+
+[quote]
+____
+https://leetcode.com/problems/koko-eating-bananas
+____
+
+난이도:: 여러 번 제출, 경계 케이스 확인 못함
+상태:: 풀었다
+
+== 접근
+
+=== Binary search
+
+시간 복잡도::
+stem:[O(N\log M)], stem:[N]은 piles 개수, stem:[M]은 pile 최대 개수
+공간 복잡도:: stem:[O(1)]
+
+== 구현
+
+* overflow 고려
