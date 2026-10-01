@@ -1,0 +1,71 @@
+= Linked List Cycle
+:stem: latexmath
+:toc: left
+
+[quote]
+____
+https://leetcode.com/problems/linked-list-cycle
+____
+
+난이도:: 쉽다, 새 알고리즘
+상태:: 풀었다
+
+== 접근
+
+=== Hash table
+
+시간 복잡도:: 평균 stem:[O(N)]
+공간 복잡도:: stem:[O(N)]
+
+=== Floyd cycle detection algorithm
+
+시간 복잡도:: stem:[O(N)]
+공간 복잡도:: stem:[O(1)]
+
+== Floyd cycle detection algorithm
+
+> ChatGPT, 검증했다
+
+[NOTE]
+====
+* 내가 왜 이걸...
+====
+
+* 속도 다른 순회: 속도 1, 속도 2
+
+'''
+
+* 거리 stem:[d], 사이클 길이 stem:[k]에 대해
++
+[stem]
+++++
+d + t \equiv 0 \mod k
+++++
++
+를 만족하는 stem:[t]가 있다
+* {empty}
++
+[stem]
+++++
+t = k - d \mod k
+++++
++
+이므로 stem:[0 \le t < k], 최대 stem:[k]번 내에 만난다
+
+=== 사이클 시작 노드 찾기
+
+* stem:[a]: 리스트 시작부터 사이클 시작까지 거리
+* stem:[b]: 사이클 시작부터 만난 지점까리 거리
+* stem:[c]: 만난 지점부터 사이클 시작까지 거리
+* stem:[L]: 사이클 길이, stem:[L = b + c]
+* stem:[n]: 사이클 더 돈 횟수
+
+[stem]
+++++
+2(a + b) = a + b + nL \\
+a + b = nL \\
+a = nL - b \\
+a = (n - 1)L + c
+++++
+
+* 좌항이 우항과 같아지는 지점이 시작 노드
