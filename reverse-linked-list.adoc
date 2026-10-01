@@ -1,0 +1,23 @@
+= Reverse Linked List
+:stem: latexmath
+:toc: left
+
+[quote]
+____
+https://leetcode.com/problems/reverse-linked-list
+____
+
+난이도:: 쉽다
+상태:: 풀었다
+
+== 접근
+
+=== 그냥 푼다
+
+시간 복잡도:: stem:[O(N)]
+공간 복잡도:: stem:[O(N)]
+
+=== 입력 노드 활용
+
+시간 복잡도:: stem:[O(N)]
+공간 복잡도:: stem:[O(1)]
