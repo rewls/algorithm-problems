@@ -1,0 +1,28 @@
+= Validate Binary Search Tree
+:stem: latexmath
+:toc: left
+
+[quote]
+____
+https://leetcode.com/problems/validate-binary-search-tree
+____
+
+난이도:: 무턱대고 풀지 마라
+상태:: 풀었다
+
+== 접근
+
+=== 범위 기반 DFS
+
+시간 복잡도:: stem:[O(N)]
+공간 복잡도:: stem:[O(\text{height})]
+
+=== BST 특성 기반 Inorder 순회
+
+시간 복잡도:: stem:[O(N)]
+공간 복잡도:: stem:[O(\text{height})]
+
+== 실수
+
+* 문제 파악 미숙
+* 무턱대고 풀었다
