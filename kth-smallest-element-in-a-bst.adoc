@@ -1,0 +1,18 @@
+= Kth Smallest Element in a BST
+:stem: latexmath
+:toc: left
+
+[quote]
+____
+https://leetcode.com/problems/kth-smallest-element-in-a-bst
+____
+
+난이도:: 쉽다
+상태:: 풀었다
+
+== 접근
+
+=== Inorder traverse
+
+시간 복잡도:: stem:[O(H + k)]
+공간 복잡도:: stem:[O(H)]
