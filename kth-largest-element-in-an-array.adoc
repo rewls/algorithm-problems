@@ -1,0 +1,28 @@
+= Kth Largest Element in an Array
+:stem: latexmath
+:toc: left
+
+[quote]
+____
+https://leetcode.com/problems/kth-largest-element-in-an-array
+____
+
+난이도:: 쉽다
+상태:: 풀었다
+
+== 접근
+
+=== Red black tree
+
+시간 복잡도:: stem:[O(N\log k)]
+공간 복잡도:: stem:[O(k)]
+
+=== Min heap
+
+시간 복잡도:: stem:[O(N\log k)]
+공간 복잡도:: stem:[O(k)]
+
+=== Quick select
+
+시간 복잡도:: 평균 stem:[O(N)]
+공간 복잡도:: stem:[O(1)]
