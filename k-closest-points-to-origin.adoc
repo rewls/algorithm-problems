@@ -1,0 +1,23 @@
+= K Closest Points to Origin
+:stem: latexmath
+:toc: left
+
+[quote]
+____
+https://leetcode.com/problems/k-closest-points-to-origin
+____
+
+난이도:: 쉽다
+상태:: 풀었다
+
+== 접근
+
+=== Max heap
+
+시간 복잡도:: stem:[O(N\log k)]
+공간 복잡도:: stem:[O(k)]
+
+=== Quick Select
+
+시간 복잡도:: 평균 stem:[O(N)]
+공간 복잡도:: stem:[O(1)]
