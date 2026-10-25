@@ -1,0 +1,27 @@
+= Rotting Oranges
+:stem: latexmath
+:toc: left
+
+[quote]
+____
+https://leetcode.com/problems/rotting-oranges
+____
+
+난이도:: multi-source BFS 고려
+상태:: 풀었다
+
+== 접근
+
+=== Single-source BFS
+
+시간 복잡도:: stem:[O(V^2)]
+공간 복잡도:: stem:[O(V)]
+
+=== Multi-source BFS
+
+시간 복잡도:: stem:[O(V)]
+공간 복잡도:: stem:[O(V)]
+
+== 구현
+
+* queue에 넣기 전 방문 처리하여 중복 삽입 방지
