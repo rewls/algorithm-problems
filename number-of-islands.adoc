@@ -1,0 +1,18 @@
+= Number of Islands
+:stem: latexmath
+:toc: left
+
+[quote]
+____
+https://leetcode.com/problems/number-of-islands
+____
+
+난이도:: 쉽다
+상태:: 풀었다
+
+== 접근
+
+=== DFS
+
+시간 복잡도:: stem:[O(V)]
+공간 복잡도:: stem:[O(V)]
