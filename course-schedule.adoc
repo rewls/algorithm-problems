@@ -1,0 +1,23 @@
+= Course Schedule
+:stem: latexmath
+:toc: left
+
+[quote]
+____
+https://leetcode.com/problems/course-schedule
+____
+
+난이도:: 여러 번 제출, time exceeded
+상태:: 풀었다
+
+== 접근
+
+=== DFS
+
+시간 복잡도:: stem:[O(V + E)]
+공간 복잡도:: stem:[O(V + E)]
+
+== 구현
+
+* Graph: Adjacent list, 자기 자신 가리키는 edge 처리 
+* Time exceeded 플래그 관리 주의
